@@ -1,0 +1,202 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: API for CB App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-26 18:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.2\n"
+"X-Domain: api-for-cb-app"
+
+#: src/View/Settings.php:95
+msgid "<hr />Booking restrictions"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds REST Api to Commons Booking to support App."
+msgstr ""
+
+#: src/View/Settings.php:181
+msgid "Allow all"
+msgstr ""
+
+#: src/View/Settings.php:185
+msgid ""
+"Allows/denies users to use an Application Password for App authentication (e."
+"g. for Booking)"
+msgstr ""
+
+#. Name of the plugin
+msgid "API for CB App"
+msgstr ""
+
+#: src/View/Settings.php:22 src/View/Settings.php:23
+msgid "App API Settings"
+msgstr ""
+
+#: src/View/Settings.php:66
+msgid "Application Passwords"
+msgstr ""
+
+#: src/API/RestBooking.php:86
+msgid "Booking"
+msgstr ""
+
+#: src/API/BookingsRoute.php:132
+msgid "Booking list retrieved"
+msgstr ""
+
+#: src/API/BookingsRoute.php:149
+msgid "Booking/Update successfull"
+msgstr ""
+
+#: src/API/RestBookingList.php:137
+msgid "Code"
+msgstr ""
+
+#: src/View/Settings.php:84
+msgid "Deny images for Web App (CORS)"
+msgstr ""
+
+#: src/API/RestBookingList.php:84
+msgid "Details"
+msgstr ""
+
+#: src/API/BookingsRoute.php:128
+msgid "Error creating booking list"
+msgstr ""
+
+#: src/View/Settings.php:183
+msgid "Forbidden for all"
+msgstr ""
+
+#: src/View/Settings.php:50
+msgid "General"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://printpagestopdf.github.io/cb_app/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/theripper"
+msgstr ""
+
+#: src/View/Settings.php:170
+msgid ""
+"If checked, Web Apps are denied to retrieve item images (if CORS restricts "
+"it)"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:400
+msgid "login successfully"
+msgstr ""
+
+#: src/View/Settings.php:57
+msgid "Map to use"
+msgstr ""
+
+#: src/View/Settings.php:129
+msgid "Max. bookings per month"
+msgstr ""
+
+#: src/View/Settings.php:120
+msgid "Max. bookings per week"
+msgstr ""
+
+#: src/View/Settings.php:111
+msgid "Max. days per month"
+msgstr ""
+
+#: src/View/Settings.php:102
+msgid "Max. days per week"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:185
+msgid "missing org_url"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:217
+msgid "missing post_id"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:164 src/API/AppUtilsRoute.php:168
+#: src/API/AppUtilsRoute.php:222 src/API/AppUtilsRoute.php:248
+msgid "No image for item"
+msgstr ""
+
+#: src/API/AppBaseRoute.php:93
+msgid "No maps configured!"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:201
+msgid "no uploads file"
+msgstr ""
+
+#: src/API/RestBookingList.php:89 src/API/RestBookingList.php:100
+msgid "Not available"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:190
+msgid "path missing"
+msgstr ""
+
+#: src/View/Settings.php:286
+msgid "Per User booking restrictions"
+msgstr ""
+
+#: src/View/Settings.php:182
+msgid "Restrict to Roles"
+msgstr ""
+
+#: src/View/Settings.php:75
+msgid "Roles allowed to login"
+msgstr ""
+
+#: src/View/Settings.php:208
+msgid "Roles that are allowed to use Application Password"
+msgstr ""
+
+#: src/View/Settings.php:275
+msgid "Select CB Map thats configuration should be used for App"
+msgstr ""
+
+#: src/View/Settings.php:282
+msgid "Settings for the CB App API"
+msgstr ""
+
+#: src/View/Settings.php:221
+msgid "Settings Saved"
+msgstr ""
+
+#: src/API/RestBookingList.php:128
+msgid "Status"
+msgstr ""
+
+#: src/API/AppUtilsRoute.php:382
+msgid "successfully generated app key"
+msgstr ""
+
+#. Author of the plugin
+msgid "The Ripper"
+msgstr ""
+
+#: src/API/RestBooking.php:74
+msgid "There is already a booking in this timerange."
+msgstr ""
+
+#: src/View/Settings.php:180
+msgid "Use system setting"
+msgstr ""
+
+#: src/API/RestBookingList.php:124
+msgid "User"
+msgstr ""

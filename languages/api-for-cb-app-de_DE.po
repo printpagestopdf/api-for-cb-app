@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: API for CB App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 21:05+0000\n"
+"PO-Revision-Date: 2024-02-26 19:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.2\n"
+"X-Domain: api-for-cb-app"
+
+#: src/View/Settings.php:95
+msgid "<hr />Booking restrictions"
+msgstr "<hr />Buchungseinschränkungen"
+
+#. Description of the plugin
+msgid "Adds REST Api to Commons Booking to support App."
+msgstr "Erweitert die Commons Booking REST API für die App Unterstützung."
+
+#: src/View/Settings.php:181
+msgid "Allow all"
+msgstr "Für alle erlauben"
+
+#: src/View/Settings.php:185
+msgid ""
+"Allows/denies users to use an Application Password for App authentication (e."
+"g. for Booking)"
+msgstr ""
+"Erlaubt/verbietet Benutzern sich mit einem Anwendungspasswort über die App "
+"anzumelden (z.B. für Buchungen)"
+
+#. Name of the plugin
+msgid "API for CB App"
+msgstr "API für die CB App"
+
+#: src/View/Settings.php:22 src/View/Settings.php:23
+msgid "App API Settings"
+msgstr "App API Einstellungen"
+
+#: src/View/Settings.php:66
+msgid "Application Passwords"
+msgstr "Anwendungspasswort"
+
+#: src/API/RestBooking.php:86
+msgid "Booking"
+msgstr "Buchung"
+
+#: src/API/BookingsRoute.php:132
+msgid "Booking list retrieved"
+msgstr "Buchungsliste ermittelt"
+
+#: src/API/BookingsRoute.php:149
+msgid "Booking/Update successfull"
+msgstr "Buchung/Update erfolgreich"
+
+#: src/API/RestBookingList.php:137
+msgid "Code"
+msgstr "Code"
+
+#: src/View/Settings.php:84
+msgid "Deny images for Web App (CORS)"
+msgstr "Web App verbieten CORS für images zu umgehen"
+
+#: src/API/RestBookingList.php:84
+msgid "Details"
+msgstr "Details"
+
+#: src/API/BookingsRoute.php:128
+msgid "Error creating booking list"
+msgstr "Fehler beim ermitteln der Buchungsliste"
+
+#: src/View/Settings.php:183
+msgid "Forbidden for all"
+msgstr "Für alle verbieten"
+
+#: src/View/Settings.php:50
+msgid "General"
+msgstr "Allgemein"
+
+#. URI of the plugin
+msgid "https://printpagestopdf.github.io/cb_app/"
+msgstr "https://printpagestopdf.github.io/cb_app/"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/theripper"
+msgstr "https://profiles.wordpress.org/theripper"
+
+#: src/View/Settings.php:170
+msgid ""
+"If checked, Web Apps are denied to retrieve item images (if CORS restricts "
+"it)"
+msgstr ""
+"Wenn aktiviert, ist es Web App's verboten Images zu laden (sofern CORS "
+"aktiviert ist)"
+
+#: src/API/AppUtilsRoute.php:400
+msgid "login successfully"
+msgstr "Anmeldung erfolgreich"
+
+#: src/View/Settings.php:57
+msgid "Map to use"
+msgstr "Karte"
+
+#: src/View/Settings.php:129
+msgid "Max. bookings per month"
+msgstr "Max. Buchungen pro Monat"
+
+#: src/View/Settings.php:120
+msgid "Max. bookings per week"
+msgstr "Max. Buchungen pro Woche"
+
+#: src/View/Settings.php:111
+msgid "Max. days per month"
+msgstr "Max. Buchungstage pro Monat"
+
+#: src/View/Settings.php:102
+msgid "Max. days per week"
+msgstr "Max. Buchungstage pro Monat"
+
+#: src/API/AppUtilsRoute.php:185
+msgid "missing org_url"
+msgstr "keine Url angegeben"
+
+#: src/API/AppUtilsRoute.php:217
+msgid "missing post_id"
+msgstr "keine Post-ID angegeben"
+
+#: src/API/AppUtilsRoute.php:164 src/API/AppUtilsRoute.php:168
+#: src/API/AppUtilsRoute.php:222 src/API/AppUtilsRoute.php:248
+msgid "No image for item"
+msgstr "Der Artikel hat kein image"
+
+#: src/API/AppBaseRoute.php:93
+msgid "No maps configured!"
+msgstr "Keine Karte(n) eingerichtet"
+
+#: src/API/AppUtilsRoute.php:201
+msgid "no uploads file"
+msgstr "Datei nicht im uploads Verzeichnis"
+
+#: src/API/RestBookingList.php:89 src/API/RestBookingList.php:100
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#: src/API/AppUtilsRoute.php:190
+msgid "path missing"
+msgstr "es wurde kein Pfad angegeben"
+
+#: src/View/Settings.php:286
+msgid "Per User booking restrictions"
+msgstr "Benutzerbezogene Einschränkungen"
+
+#: src/View/Settings.php:182
+msgid "Restrict to Roles"
+msgstr "Auf Rollen einschränken"
+
+#: src/View/Settings.php:75
+msgid "Roles allowed to login"
+msgstr "Rollen denen Anmeldung erlaubt ist"
+
+#: src/View/Settings.php:208
+msgid "Roles that are allowed to use Application Password"
+msgstr "Rollen, die ein Anwendungspasswort verwenden dürfen"
+
+#: src/View/Settings.php:275
+msgid "Select CB Map thats configuration should be used for App"
+msgstr "CB Karte auswählen, deren Einstellungen für die App verwendet werden"
+
+#: src/View/Settings.php:282
+msgid "Settings for the CB App API"
+msgstr "Einstellungen für die CB App API"
+
+#: src/View/Settings.php:221
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: src/API/RestBookingList.php:128
+msgid "Status"
+msgstr "Status"
+
+#: src/API/AppUtilsRoute.php:382
+msgid "successfully generated app key"
+msgstr "Anwendungspasswort erzeugtn"
+
+#. Author of the plugin
+msgid "The Ripper"
+msgstr "The Ripper"
+
+#: src/API/RestBooking.php:74
+msgid "There is already a booking in this timerange."
+msgstr "Es gibt bereits eine Buchung in dem Zeitraum."
+
+#: src/View/Settings.php:180
+msgid "Use system setting"
+msgstr "Systemeinstellung verwenden"
+
+#: src/API/RestBookingList.php:124
+msgid "User"
+msgstr "Nutzende*r"
