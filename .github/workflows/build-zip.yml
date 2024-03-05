@@ -1,0 +1,45 @@
+name: Build release zip
+
+on:
+  workflow_dispatch
+
+permissions:
+  actions: read
+  checks: read
+  contents: write
+  deployments: write
+  issues: read
+  packages: read
+  pull-requests: read
+  repository-projects: read
+  security-events: read
+  statuses: write
+
+
+jobs:
+  build:
+    name: Build rproject
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run build script
+        shell: bash
+        run: |
+            mkdir /tmp/out
+            mkdir /tmp/plugin
+            rsync -rc --exclude-from=".distignore" ./ "/tmp/out" --delete --delete-excluded
+            cd /tmp/out
+            zip -r "/tmp/plugin/api-for-cb-app.zip" .
+            ls /tmp/plugin
+            echo "✓ Output files generated!"
+      - name: "Prerelease"
+        uses: "marvinpinto/action-automatic-releases@v1.2.1"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            /tmp/plugin/api-for-cb-appzip
+

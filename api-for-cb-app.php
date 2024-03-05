@@ -3,7 +3,7 @@
  * Plugin Name:         API for CB App
  * Version:             0.5.0
  * Requires at least:   5.2
- * Tested up to:        6.4.2
+ * Tested up to:        6.4.3
  * Requires PHP:        7.4
  * Plugin URI:          https://printpagestopdf.github.io/cb_app/
  * Description:         Adds REST Api to Commons Booking to support App.

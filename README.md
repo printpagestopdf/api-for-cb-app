@@ -1,8 +1,12 @@
 # API Extension to support CB App (App for CommonsBooking)
 
-[CB App](https://printpagestopdf.github.io/cb_app/) is a muliplattform App written in Flutter. It is working as an alternative Frontend for a CommonsBooking website. CB App is a stand-alone development independent of [CommonsBooking](https://commonsbooking.org/), but requires a [CommonsBooking](https://wordpress.org/plugins/commonsbooking/) installation as a prerequisite
+[CB App](https://printpagestopdf.github.io/cb_app/en/) is a muliplattform App written in Flutter. It is working as an alternative Frontend for a [CommonsBooking](https://commonsbooking.org/) website. If you want to know more about the App visit the [Website](https://printpagestopdf.github.io/cb_app/en/) or the [GitHub page](https://github.com/printpagestopdf/cb_app).
 
-This plugin extends the functionality of the CommonsBooking API.  With this plugin it is possible to log in as a user and make bookings from CB App. Without this  plugin the CB App has only read-only access to the CommonsBooking site (and only if the site has enabled the CommonsAPI ).
+[CB App](https://printpagestopdf.github.io/cb_app/en/) is a stand-alone development independent of [CommonsBooking](https://commonsbooking.org/), but requires a [CommonsBooking](https://wordpress.org/plugins/commonsbooking/) installation as a prerequisite
+
+This plugin extends the functionality of the CommonsBooking API.  If it is installed on the website, it is possible to log in and make bookings via the CB App.
+
+Without this  plugin installed the CB App has only read-only access to the CommonsBooking site (and only if the site has enabled the CommonsAPI ).
 
 Additionally this plugin supplies:
 
