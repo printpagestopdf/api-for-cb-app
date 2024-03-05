@@ -18,6 +18,6 @@ Additionally this plugin supplies:
 #### **Installation**
 
 - Ensure that the WP plugin CommonsBooking is installed
-- Install the plugin either from the Wordpress plugin directory or latest Version from here.
+- Install the plugin either from the [Wordpress plugin directory](https://wordpress.org/plugins/api-for-cb-app/) or latest Version from here.
 - Activate this plugin
 - Configure settings if necessary (find settings under CommonsBooking Menu item "App API settings")
